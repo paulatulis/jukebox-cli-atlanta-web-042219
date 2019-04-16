@@ -27,7 +27,9 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   answer = gets.chomp 
-  if answer == (1..9).to_s || answer == songs.with_index[1]
+  if answer == (1..9).to_s 
+    puts "Playing "
+    answer == songs.with_index[1]
     puts "Playing <#{answer}>"
   else puts "Invalid input, please try again"
 end 
