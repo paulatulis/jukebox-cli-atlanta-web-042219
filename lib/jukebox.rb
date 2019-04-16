@@ -55,4 +55,3 @@ else command == "exit"
   exit_jukebox
 end 
 end 
-end
