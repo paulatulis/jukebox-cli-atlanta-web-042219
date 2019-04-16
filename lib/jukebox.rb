@@ -29,10 +29,8 @@ def play(songs)
   answer = gets.downcase.chomp 
   if (1..9).to_a.include?(answer.to_i)
     puts "Playing #{songs[answer.to_i - 1]}"
-    elsif songs.include?(answer)
+    elsif songs.include?(answer) || answer == "Phoenix - 1901"
     puts "Playing #{answer}"
-    elsif answer == "Phoenix - 1901"
-    puts "Playing Phoenix - 1901"
   else puts "Invalid input, please try again"
 end 
 end 
