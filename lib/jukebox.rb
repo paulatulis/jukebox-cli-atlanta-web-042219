@@ -47,7 +47,6 @@ command = gets.chomp
 if command == "list"
   list(songs)
   elsif command == "play"
-  list(songs 
   play(songs)
   elsif command == "help"
   help 
