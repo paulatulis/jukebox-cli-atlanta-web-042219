@@ -41,7 +41,7 @@ end
 
 def run 
   command = " "
-  while command != "exit"
+  while command
   help
   puts "Please enter a command:"
 command = gets.chomp
