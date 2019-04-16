@@ -41,8 +41,9 @@ end
 
 def run 
   help
-  puts "Please enter a command:" while command != exit
+  puts "Please enter a command:"
 command = gets.chomp
+while command != exit
 if command == "list"
   list(songs)
   elsif command == "play"
