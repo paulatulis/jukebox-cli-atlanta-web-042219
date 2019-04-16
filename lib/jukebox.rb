@@ -41,8 +41,7 @@ end
 
 def run 
   command = " "
-  while command
-  help
+  while command != "exit"
   puts "Please enter a command:"
 command = gets.chomp
 if command == "list"
