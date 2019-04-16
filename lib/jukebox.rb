@@ -53,7 +53,6 @@ if command == "list"
   help 
 else command == "exit"
   exit_jukebox
-  break 
 end 
 end 
 end
