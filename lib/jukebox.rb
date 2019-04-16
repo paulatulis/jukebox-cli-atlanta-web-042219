@@ -31,7 +31,8 @@ def play(songs)
     puts "Playing #{songs[answer.to_i - 1]}"
     elsif songs.include?(answer)
     puts "Playing #{answer}"
-    elsif answer == ""
+    elsif answer == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
   else puts "Invalid input, please try again"
 end 
 end 
